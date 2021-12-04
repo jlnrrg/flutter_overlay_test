@@ -8,12 +8,13 @@ final _overlayKey = FocusNode();
 List<OnboardingStep> steps(BuildContext context) => [
       OnboardingStep(
         focusNode: _overlayKey,
-        title: 'Hi',
+        titleText: 'Hi',
         bodyText: '''Check this out''',
         hasLabelBox: false,
         fullscreen: true,
         overlayColor: Theme.of(context).primaryColorDark.withOpacity(0.8),
         hasArrow: false,
+        showPulseAnimation: true,
       ),
     ];
 

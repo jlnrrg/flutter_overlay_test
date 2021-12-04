@@ -1,8 +1,8 @@
-# Install script for directory: /home/owner/git/flutter/overlay_test/linux/flutter
+# Install script for directory: /home/owner/git/flutter/flutter_overlay_test/linux/flutter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/owner/git/flutter/overlay_test/build/linux/x64/debug/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/owner/git/flutter/flutter_overlay_test/build/linux/x64/debug/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

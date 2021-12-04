@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.overlay_test">
+    package="com.example.flutter_overlay_test">
    <application
-        android:label="overlay_test"
+        android:label="flutter_overlay_test"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
