@@ -3,7 +3,7 @@ import 'package:onboarding_overlay/onboarding_overlay.dart';
 
 final GlobalKey<OnboardingState> onboardingKey = GlobalKey<OnboardingState>();
 
-final _overlayKey = FocusNode();
+final FocusNode _overlayKey = FocusNode();
 
 List<OnboardingStep> steps(BuildContext context) => [
       OnboardingStep(
@@ -25,6 +25,7 @@ class Page2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Onboarding(
         key: onboardingKey,
+        globalOnboarding: true,
         steps: steps(context),
         child: Builder(builder: (context) {
           return Scaffold(
